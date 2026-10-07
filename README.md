@@ -23,7 +23,9 @@ Tiny C library to go through an archived SoundCloud likes page (`LIKES.html`) in
 gcc -Wall -Wextra -std=c99 main.c likes.c -o tests
 ./tests
 ```
-
+```
+gcc app.c likes.c -o app
+```
 MSVC:
 
 ```
